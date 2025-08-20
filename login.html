@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CRIPTIFY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="Styles/login.css">
+    <link rel="stylesheet" href="Styles/auth-forms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="Components/navbar.js" defer></script>
+    <script src="Scripts/auth.js" defer></script>
+</head>
+<body data-theme="dark">
+    <!-- Background Elements -->
+    <div class="cyber-grid"></div>
+    <div class="matrix-bg" id="matrix-container"></div>
+    <div class="particles" id="particles-container"></div>
+    <div class="cyber-circles"></div>
+    <div class="glowing-lines"></div>
+    
+    <!-- Navbar will be inserted by navbar.js -->
+    
+    <script src="Animations/anim.js"></script>
+    
+    <!-- Login Form Container -->
+    <div class="auth-container">
+        <div class="auth-form-wrapper">
+            <div class="auth-form-content">
+                <div class="auth-header">
+                    <a href="index.html" class="back-icon"><i class="bi bi-arrow-left"></i></a>
+                    <div class="shield-icon">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                    <h2 class="auth-title">LOGIN <i class="bi bi-key"></i></h2>
+                </div>
+                <div class="auth-body">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <input type="text" id="username" placeholder="Username or Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="sign-in-btn">Sign in</button>
+                    </form>
+                    <div class="form-links">
+                        <a href="#" id="forgotPasswordLink">Forgot Password</a>
+                        <a href="signup.html" id="signupLink">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Animations/animations.js"></script>
+    <script src="Animations/logo-title-animations.js"></script>
+</body>
+</html>
